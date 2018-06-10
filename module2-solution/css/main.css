@@ -1,0 +1,91 @@
+h1 {
+    text-align: center;
+    font-size: 175%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p.section {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.section-content {
+    padding-top: 50px;
+}
+
+p.section-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 125%;
+    margin-top: 0.5em;
+}
+
+#title-red {
+    background-color: red;
+    color: black;
+}
+
+#title-brown {
+    background-color: brown;
+    color: white;
+}
+
+#title-yellow {
+    background-color: yellow;
+    color: blueviolet;
+}
+
+div.section {
+    float: left;
+}
+
+div.section-content {
+    position: relative; 
+    box-sizing: border-box;
+    background-color: grey;
+    border: 1px solid black;
+    margin: 10px;
+    height: 220px;
+    overflow: scroll;
+}
+
+div.section-title {
+    background-color: red;
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+/* Responsive framework */
+.row {
+    width: 100%;
+}
+
+/* desktop view */
+@media (min-width: 992px) {
+    .col-desktop-4 {
+        width: 33.33%;
+    }
+}
+
+/* tablet view */
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-tablet-6 {
+        width: 50%;
+    }
+    .col-tablet-12 {
+        width: 100%;
+    }
+}
+
+/* mobile view */
+@media (max-width: 767px) {
+    .col-mobile-12 {
+        width: 100%;
+    }
+}
