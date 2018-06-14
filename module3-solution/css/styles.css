@@ -1,0 +1,82 @@
+body {
+    font-family: 'Concert One', cursive;
+    color: #E7E7E7;
+}
+/* HEADER */
+#my-header-nav {
+    background-color: #4877ad;
+    margin: 0;
+}
+#my-header-nav .navbar-toggle {
+    border-color: #E7E7E7;
+}
+#my-header-nav .navbar-toggle:hover,
+#my-header-nav .navbar-toggle:focus  {
+    background-color: #7899c0;
+}
+#my-header-nav .navbar-toggle .icon-bar {
+    background-color: #E7E7E7;
+}
+.navbar-brand {
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.navbar-nav {
+    margin: 0 -15px;
+}
+.navbar-brand h1 {
+    color: #E7E7E7;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000000;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+#nav-list a {
+    font-size: 1.4em;
+    text-align: center;
+    color: #E7E7E7;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: #7899c0;
+    border: 1px solid #E7E7E7;
+}
+#nav-list a:hover {
+    color: #E7E7E7;
+    background-color: #4877ad;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+/* END OF HEADER */
+
+/* MAIN PAGE */
+#main-content {
+    color: #20303f;
+}
+
+.row > div {
+    height: 700px;
+    background-color: #a4bedb;
+    border: 5px solid #ffffff;
+    position: relative;
+}
+#menu-section p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#menu-section span {
+    position: absolute;
+    bottom: 0;
+    text-decoration: underline;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+/* END OF MAIN PAGE */
+
+@media (max-width: 767px) {
+    #menu-section {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
